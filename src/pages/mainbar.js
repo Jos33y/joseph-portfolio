@@ -211,7 +211,7 @@ const MainBar = () => {
                                         React-Router to navigate these pages (Product list page, Product details
                                         page...) with user-friendly flow when switching.</p>
                                     <p>Developed a fully functional online store provider that allows you to create
-                                        and mange your online store without technical skills.</p>
+                                        and manage your online store without technical skills.</p>
                                 </div>
                             </div>
                         </Col>
