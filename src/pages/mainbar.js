@@ -1,11 +1,26 @@
-import React from "react";
+import React, { useRef } from 'react';
 import {Col, Form, Row} from "react-bootstrap";
+import emailjs from '@emailjs/browser';
+
 import HeroImage from "../assets/casual-life-3d-young-man-sitting-in-front-of-laptop.png";
+import {toast} from "react-toastify";
 
 const MainBar = () => {
 
-    const handleSubmit = async () => {
-        console.log("hello");
+    const form = useRef();
+
+    const handleSubmit = async (e) => {
+
+        e.preventDefault()
+        await emailjs.sendForm('service_zs0rdbz', 'template_z0n1svx', form.current, 'T_n4Xk159ZUu1YKU2')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            }).then(() => {
+                toast.success("Message Sent Successfully")
+            })
+        e.target.reset()
     }
 
     return (
@@ -24,7 +39,7 @@ const MainBar = () => {
                                 </div>
 
                                 <div className="hire-button">
-                                    <button className="btn btn-md btn-success"> Hire ME</button>
+                                    <a href="#contact" className="btn btn-md btn-success"> Hire ME</a>
                                 </div>
                             </div>
                         </Col>
@@ -259,20 +274,20 @@ const MainBar = () => {
 
 
 
-                <div className="form-section">
+                <div className="form-section" id="contact">
                     <h4>Get in touch</h4>
 
                     <div className="form-box">
-                        <Form className="form-body" onSubmit={handleSubmit}>
+                        <Form ref={form} className="form-body" onSubmit={handleSubmit}>
 
                             <div className="form-group">
                                 <label htmlFor="name"> <i className="fas fa-user"></i> </label>
-                                <input type="text" placeholder="Full Name" className="form-control"  required={true}/>
+                                <input type="text" name="name" placeholder="Full Name" className="form-control"  required={true}/>
                             </div>
 
                             <div className="form-group">
                                 <label htmlFor="email"> <i className="fas fa-at"></i> </label>
-                                <input type="email" placeholder="Email"  className="form-control" required={true}/>
+                                <input type="email" name="email" placeholder="Email"  className="form-control" required={true}/>
                             </div>
 
                             <div className="form-group textarea">
