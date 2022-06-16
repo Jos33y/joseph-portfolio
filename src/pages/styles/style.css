@@ -909,11 +909,10 @@ body{
         margin: auto;
     }
 
-
-
+    
     .MainBar{
         padding: 0px 20px;
-        height: 95vh;
+        height: 90vh;
     }
 
     .MainBar h4{
