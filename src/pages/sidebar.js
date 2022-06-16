@@ -118,6 +118,15 @@ const SideBar = () => {
                            </li>
                            <li>
                                <div className="skills-text">
+                                   <p>Canva</p>
+                                   <p className="percent">90%</p>
+                               </div>
+                               <div className="skill-bar">
+                                   <div className="skill css"></div>
+                               </div>
+                           </li>
+                           <li>
+                               <div className="skills-text">
                                    <p>Azure </p>
                                    <p className="percent">50%</p>
                                </div>
@@ -125,6 +134,7 @@ const SideBar = () => {
                                    <div className="skill js"></div>
                                </div>
                            </li>
+
                            <li>
                                <div className="skills-text">
                                    <p>PHP</p>
@@ -161,7 +171,10 @@ const SideBar = () => {
                    <hr/>
 
                    <div className="download-cv">
-                       <a href="Https://"> Download CV <i className="fas fa-download"></i></a>
+                       <a href="https://www.keepandshare.com/doc27/113219/resume-joseph-lagbalu-pdf-102k?da=y"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          download> Download CV <i className="fas fa-download"></i></a>
                    </div>
 
                </div>
