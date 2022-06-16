@@ -177,18 +177,19 @@ const SideBar = () => {
                           download> Download CV <i className="fas fa-download"></i></a>
                    </div>
 
-               </div>
-
-               <div className="side-footer">
-                   <div className="socials">
-                       <ul>
-                           <li><a href="https://www.linkedin.com/in/joseph-lagbalu/"><i className="fab fa-linkedin-in"></i></a></li>
-                           <li><a href="https://github.com/Jos33y"><i className="fab fa-github"></i></a></li>
-                           <li><a href="https://web.facebook.com/lagbalu.joseph/"><i className="fab fa-facebook"></i></a></li>
-                           <li><a href="https://www.linkedin.com/in/joseph-lagbalu/"><i className="fab fa-twitter"></i></a></li>
-                       </ul>
+                   <div className="side-footer">
+                       <div className="socials">
+                           <ul>
+                               <li><a href="https://www.linkedin.com/in/joseph-lagbalu/"><i className="fab fa-linkedin-in"></i></a></li>
+                               <li><a href="https://github.com/Jos33y"><i className="fab fa-github"></i></a></li>
+                               <li><a href="https://web.facebook.com/lagbalu.joseph/"><i className="fab fa-facebook"></i></a></li>
+                               <li><a href="https://www.linkedin.com/in/joseph-lagbalu/"><i className="fab fa-twitter"></i></a></li>
+                           </ul>
+                       </div>
                    </div>
                </div>
+
+
            </div>
         </>
     )
