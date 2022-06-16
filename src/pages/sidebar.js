@@ -82,6 +82,43 @@ const SideBar = () => {
                            <li>
                                <div className="skills-text">
                                    <p>Js</p>
+                                   <p className="percent">90%</p>
+                               </div>
+                               <div className="skill-bar">
+                                   <div className="skill html"></div>
+                               </div>
+                           </li>
+                           <li>
+                               <div className="skills-text">
+                                   <p>React Js</p>
+                                   <p className="percent">90%</p>
+                               </div>
+                               <div className="skill-bar">
+                                   <div className="skill html"></div>
+                               </div>
+                           </li>
+
+                           <li>
+                               <div className="skills-text">
+                                   <p>Node Js</p>
+                                   <p className="percent">90%</p>
+                               </div>
+                               <div className="skill-bar">
+                                   <div className="skill html"></div>
+                               </div>
+                           </li>
+                           <li>
+                               <div className="skills-text">
+                                   <p>Firebase</p>
+                                   <p className="percent">90%</p>
+                               </div>
+                               <div className="skill-bar">
+                                   <div className="skill html"></div>
+                               </div>
+                           </li>
+                           <li>
+                               <div className="skills-text">
+                                   <p>Azure </p>
                                    <p className="percent">50%</p>
                                </div>
                                <div className="skill-bar">
@@ -90,20 +127,20 @@ const SideBar = () => {
                            </li>
                            <li>
                                <div className="skills-text">
-                                   <p>React Js</p>
-                                   <p className="percent">70%</p>
+                                   <p>PHP</p>
+                                   <p className="percent">80%</p>
                                </div>
                                <div className="skill-bar">
-                                   <div className="skill react"></div>
+                                   <div className="skill php"></div>
                                </div>
                            </li>
                            <li>
                                <div className="skills-text">
-                                   <p>PHP</p>
-                                   <p className="percent">70%</p>
+                                   <p>Open to other technologies</p>
+                                   <p className="percent">100%</p>
                                </div>
                                <div className="skill-bar">
-                                   <div className="skill php"></div>
+                                   <div className="skill other"></div>
                                </div>
                            </li>
                        </ul>

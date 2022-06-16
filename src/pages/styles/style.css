@@ -470,7 +470,11 @@ body{
     width: 50%;
 }
 .php{
-    width: 70%;
+    width: 80%;
+}
+
+.other{
+    width: 100%;
 }
 
 .Sidebar .Profile-details .mini-skills ul{
