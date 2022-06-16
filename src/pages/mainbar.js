@@ -65,7 +65,7 @@ const MainBar = () => {
                     <h4>My Services</h4>
 
                     <Row>
-                        <Col md={4}>
+                        <Col lg={4} className="col-md-6">
                             <div className="service-box">
                                 <h6>Front-end design and development</h6>
                                 <p>
@@ -75,7 +75,7 @@ const MainBar = () => {
                             </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col lg={4} className="col-md-6">
                             <div className="service-box">
                                 <h6>Back-end development</h6>
                                 <p>
@@ -85,7 +85,7 @@ const MainBar = () => {
                             </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col lg={4} className="col-md-6">
                             <div className="service-box">
                                 <h6>Integration</h6>
                                 <p>
@@ -102,8 +102,8 @@ const MainBar = () => {
                 <div className="work-section">
                     <h4>Education</h4>
                     <Row>
-                        <Col md={6}>
-                            <div className="work-box">
+                        <Col lg={6}>
+                            <div className="work-box education">
                                 <div className="work-header">
                                     <div className="work-title">
                                         <h5>Bsc. Computer Science </h5>
@@ -128,7 +128,7 @@ const MainBar = () => {
                 <div className="work-section">
                     <h4>Work History</h4>
                     <Row>
-                        <Col md={6}>
+                        <Col lg={6}>
                             <div className="work-box">
                                 <div className="work-header">
                                     <div className="work-title">
@@ -152,7 +152,7 @@ const MainBar = () => {
                             </div>
                         </Col>
 
-                        <Col md={6}>
+                        <Col lg={6}>
                             <div className="work-box">
                                 <div className="work-header">
                                     <div className="work-title">
@@ -177,7 +177,7 @@ const MainBar = () => {
                         </Col>
 
 
-                        <Col md={6}>
+                        <Col lg={6}>
                             <div className="work-box">
                                 <div className="work-header">
                                     <div className="work-title">
@@ -208,7 +208,7 @@ const MainBar = () => {
                 <div className="contact-section">
                     <h4>Contact Information</h4>
                     <Row>
-                        <Col md={4}>
+                        <Col lg={4} className="col-md-6">
                             <div className="contact-box">
                                 <div className="address-one">
                                     <p>country: </p>
@@ -223,7 +223,7 @@ const MainBar = () => {
                             </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col lg={4} className="col-md-6">
                             <div className="contact-box">
                                 <div className="address-one">
                                     <p>email: </p>
@@ -238,7 +238,7 @@ const MainBar = () => {
                             </div>
                         </Col>
 
-                        <Col md={4}>
+                        <Col lg={4} className="col-md-6">
                             <div className="contact-box">
                                 <div className="address-one">
                                     <p>call: </p>
