@@ -30,7 +30,7 @@ const HomePage = () => {
                    <div className="menu-box">
 
                        {isOpen ?
-                           (<button className="btn btn-md btn-success" onClick={handleClose}> <i className="fas fa-bars"></i></button>)
+                           (<button className="btn btn-md btn-success" onClick={handleClose}><i className="fas fa-times"></i></button>)
                            :
                            (<button className="btn btn-md btn-success" onClick={handleOpen}> <i className="fas fa-bars"></i></button>)
                        }
