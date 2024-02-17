@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import "./styles/style.css"
-import {Col, Row} from "react-bootstrap";
 import SideBar from "./sidebar";
 import MainBar from "./mainbar";
 const HomePage = () => {
@@ -26,26 +25,26 @@ const HomePage = () => {
     return (
         <>
            <div className="Home">
-               <div className="menu-section">
+               <div className="menu-section"> 
                    <div className="menu-box">
 
                        {isOpen ?
-                           (<button className="btn btn-md btn-success" onClick={handleClose}><i className="fas fa-times"></i></button>)
+                           (<button className="btn btn-md btn-menu" onClick={handleClose}><i className="fas fa-times"></i></button>)
                            :
-                           (<button className="btn btn-md btn-success" onClick={handleOpen}> <i className="fas fa-bars"></i></button>)
+                           (<button className="btn btn-md btn-menu" onClick={handleOpen}> <i className="fas fa-bars"></i></button>)
                        }
 
                    </div>
                </div>
                <div className="Bg">
-                   <Row>
-                       <Col lg={3} className="side-home">
+                   <div className="row">
+                       <div className="col-xl-3 side-home">
                            <SideBar />
-                       </Col>
-                       <Col lg={9} className="main-home">
+                       </div>
+                       <div className="col-xl-9 main-home">
                            <MainBar />
-                       </Col>
-                   </Row>
+                       </div>
+                   </div>
                </div>
 
            </div>

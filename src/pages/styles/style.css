@@ -61,14 +61,22 @@ body {
     background: #2c2c38;
     padding-top: 5px;
     padding-left: 20px;
-    height: 7vh;
+    height: 60px;
 }
 
 .menu-section .menu-box .btn {
-    background: transparent;
-    border: 0px solid transparent;
+    background: #20202a;
+    border: 1px solid #424242;
     font-size: 20px;
     color: rgb(140, 140, 142);
+    border-radius: 6px;
+}
+
+.menu-section .menu-box .btn:focus{
+    box-shadow: none;
+    outline: none;
+    background: #20202a;
+    border: 1px solid #424242;
 }
 
 .menu-section .menu-box .btn:focus {
@@ -437,9 +445,9 @@ body {
 }
 
 .Sidebar .header-section .image-box .img-fluid {
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
     border: 3px solid #ff6a06;
     object-fit: cover;
 }
@@ -461,6 +469,9 @@ body {
     font-size: 12px;
     color: #b6b6b6;
     font-weight: 300;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
     margin-bottom: 0px;
     letter-spacing: 1px;
 }
@@ -628,7 +639,7 @@ body {
 }
 
 
-@media (max-width: 812px) {
+@media (max-width: 1190px) {
 
     body {
         padding: 0px;
@@ -636,7 +647,7 @@ body {
 
     .Sidebar {
         display: none;
-        width: 50%;
+        width: 40%;
     }
 
     .Sidebar .header-section {
@@ -672,15 +683,26 @@ body {
         background: #20202a;
         padding-top: 5px;
         padding-left: 20px;
-        height: 7vh;
+        height: 60px;
     }
 
     .menu-section .menu-box .btn {
-        background: transparent;
-        border: 0px solid transparent;
+        background: #20202a;
+        border: 1px solid #424242;
         font-size: 20px;
     }
-
+    .menu-section .menu-box .btn:focus{
+        box-shadow: none;
+        outline: none;
+        background: #20202a;
+        border: 1px solid #424242;
+    }
+    .menu-section .menu-box .btn:active{
+        box-shadow: none;
+        outline: none;
+        background: #20202a;
+        border: 1px solid #424242;
+    }
 
     .MainBar {
         padding: 0px 20px;
@@ -901,6 +923,15 @@ body {
     }
 
 }
+
+@media (max-width: 900px) {
+
+    .Sidebar {
+        display: none;
+        width: 50%;
+    }
+}
+
 
 
 @media (max-width: 767px) {
