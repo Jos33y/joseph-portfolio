@@ -54,17 +54,17 @@ const MainBar = () => {
 
                 <div className="work-experience">
                     <div className="experience">
-                        <h5>04+</h5>
+                        <h5>05+</h5>
                         <p>Years of Experience</p>
                     </div>
 
                     <div className="experience">
-                        <h5>87</h5>
+                        <h5>45</h5>
                         <p>Completed Projects</p>
                     </div>
 
                     <div className="experience">
-                        <h5>54</h5>
+                        <h5>27</h5>
                         <p>Happy Customers</p>
                     </div>
 
@@ -312,7 +312,7 @@ const MainBar = () => {
 
                 <div className="footer-section">
                     <div className="footer-box">
-                        <p>&copy; Joseph Lagbalu</p>
+                        <p>&copy; 2024 The Brick Dev</p>
                         <p>Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a> </p>
                     </div>
                 </div>
