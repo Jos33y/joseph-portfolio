@@ -13,8 +13,8 @@ const SideBar = () => {
                     </div>
                     <div className="Profile-info">
                         <h5>Joseph Lagbalu</h5>
-                        <p>The Brick Dev</p>
-                        <p>Fullstack Developer</p>
+                        <h3>The Brick Dev</h3>
+                        <p>Full Stack Dev | Web3 & Blockchain Dev | React Native, React Js & PHP Developer</p>
                     </div>
                 </div>
 
@@ -63,75 +63,48 @@ const SideBar = () => {
                         <ul>
                             <li>
                                 <div className="skills-text">
-                                    <p>html</p>
+                                    <p>HTML</p>
                                     <p className="percent">90%</p>
                                 </div>
                                 <div className="skill-bar">
-                                    <div className="skill html"></div>
+                                    <div className="skill percent-90"></div>
                                 </div>
                             </li>
                             <li>
                                 <div className="skills-text">
                                     <p>CSS</p>
-                                    <p className="percent">90%</p>
+                                    <p className="percent">80%</p>
                                 </div>
                                 <div className="skill-bar">
-                                    <div className="skill css"></div>
+                                    <div className="skill percent-80"></div>
                                 </div>
                             </li>
                             <li>
                                 <div className="skills-text">
-                                    <p>Js</p>
-                                    <p className="percent">90%</p>
+                                    <p>JavaScript</p>
+                                    <p className="percent">80%</p>
                                 </div>
                                 <div className="skill-bar">
-                                    <div className="skill html"></div>
+                                    <div className="skill percent-80"></div>
                                 </div>
                             </li>
                             <li>
                                 <div className="skills-text">
-                                    <p>React Js</p>
-                                    <p className="percent">90%</p>
+                                    <p>React.js</p>
+                                    <p className="percent">80%</p>
                                 </div>
                                 <div className="skill-bar">
-                                    <div className="skill html"></div>
+                                    <div className="skill percent-80"></div>
                                 </div>
                             </li>
 
                             <li>
                                 <div className="skills-text">
-                                    <p>Node Js</p>
-                                    <p className="percent">90%</p>
+                                    <p>React Native</p>
+                                    <p className="percent">80%</p>
                                 </div>
                                 <div className="skill-bar">
-                                    <div className="skill html"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="skills-text">
-                                    <p>Firebase</p>
-                                    <p className="percent">90%</p>
-                                </div>
-                                <div className="skill-bar">
-                                    <div className="skill html"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="skills-text">
-                                    <p>Canva</p>
-                                    <p className="percent">90%</p>
-                                </div>
-                                <div className="skill-bar">
-                                    <div className="skill css"></div>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="skills-text">
-                                    <p>Azure </p>
-                                    <p className="percent">50%</p>
-                                </div>
-                                <div className="skill-bar">
-                                    <div className="skill js"></div>
+                                    <div className="skill percent-80"></div>
                                 </div>
                             </li>
 
@@ -141,16 +114,145 @@ const SideBar = () => {
                                     <p className="percent">80%</p>
                                 </div>
                                 <div className="skill-bar">
-                                    <div className="skill php"></div>
+                                    <div className="skill percent-80"></div>
                                 </div>
                             </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Node.js</p>
+                                    <p className="percent">70%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-70"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="skills-text">
+                                    <p>Firebase</p>
+                                    <p className="percent">80%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-80"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Canva</p>
+                                    <p className="percent">70%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-70"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="skills-text">
+                                    <p>Web3.js</p>
+                                    <p className="percent">70%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-70"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Ether.js</p>
+                                    <p className="percent">60%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-60"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Solidity</p>
+                                    <p className="percent">50%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-50"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Smart Contract</p>
+                                    <p className="percent">50%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-50"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Blockchain Integration</p>
+                                    <p className="percent">70%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-70"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>API integration</p>
+                                    <p className="percent">70%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-70"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Version control (Git)</p>
+                                    <p className="percent">80%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-80"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Responsive Web Design</p>
+                                    <p className="percent">90%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-90"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Database management</p>
+                                    <p className="percent">80%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-80"></div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="skills-text">
+                                    <p>Deployment and hosting</p>
+                                    <p className="percent">80%</p>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="skill percent-80"></div>
+                                </div>
+                            </li>
+
                             <li>
                                 <div className="skills-text">
                                     <p>Open to other technologies</p>
                                     <p className="percent">100%</p>
                                 </div>
                                 <div className="skill-bar">
-                                    <div className="skill other"></div>
+                                    <div className="skill percent-100"></div>
                                 </div>
                             </li>
                         </ul>
@@ -161,16 +263,18 @@ const SideBar = () => {
                     <div className="mini-skills">
                         <ul>
                             <li><i className="fas fa-check"></i> Boostrap, Materialize</li>
+                            <li><i className="fas fa-check"></i> UI/UX design principles</li>
                             <li><i className="fas fa-check"></i> Node Js/ Express Js</li>
                             <li><i className="fas fa-check"></i> Firestore and Authentication</li>
                             <li><i className="fas fa-check"></i> PHPMyadmin and MySql</li>
                             <li><i className="fas fa-check"></i> GIT knowledge</li>
+                            <li><i className="fas fa-check"></i> Ethereum blockchain development</li>
                         </ul>
                     </div>
 
                     <hr />
 
-                    <div style={{display: 'none'}}  className="download-cv">
+                    <div style={{ display: 'none' }} className="download-cv">
                         <a href="https://www.keepandshare.com/doc27/113219/resume-joseph-lagbalu-pdf-102k?da=y"
                             target="_blank"
                             rel="noreferrer noopener"
@@ -180,7 +284,7 @@ const SideBar = () => {
                     <div className="download-cv">
                         <a href="https://www.upwork.com/freelancers/~01fc04df6c73d0b430"
                             target="_blank"
-                            rel="noreferrer noopener"> Verified Upwork Profile <i className="fas fa-download"></i></a>
+                            rel="noreferrer noopener"> Verified Upwork Profile <i className="fas fa-circle-check"></i></a>
                     </div>
 
                     <div className="side-footer">
@@ -188,7 +292,7 @@ const SideBar = () => {
                             <ul>
                                 <li><a href="https://www.linkedin.com/in/joseph-lagbalu/"><i className="fab fa-linkedin-in"></i></a></li>
                                 <li><a href="https://github.com/Jos33y"><i className="fab fa-github"></i></a></li>
-                                <li><a href="https://web.facebook.com/lagbalu.joseph/"><i className="fab fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/the_brickdev/"><i className="fab fa-instagram"></i></a></li>
                                 <li><a href="https://x.com/boy__programmer"><i className="fab fa-x-twitter"></i></a></li>
                             </ul>
                         </div>

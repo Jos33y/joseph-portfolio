@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body{
+
+/* secondary color: #402909;
+primary color: #DE5900;
+lighter color: #ff6a06; */
+
+body {
     background-color: #191923;
     overflow-x: hidden;
     height: 99%;
@@ -11,7 +16,8 @@ body{
     padding: 15px;
     border: 0px solid #cecece;
 }
-.Home{
+
+.Home {
     background-image: url("../../assets/software-developer-gf8ce430c9_1920.jpg");
     /* Center and scale the image nicely */
     background-position: center;
@@ -21,46 +27,51 @@ body{
     position: relative;
     min-height: 96%;
     width: 100%;
-    box-shadow: 1px 1px 5px 0px rgba(33,33,33,0.75);
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(33,33,33,0.75);
-    -moz-box-shadow: 1px 1px 5px 0px rgba(33,33,33,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(33, 33, 33, 0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(33, 33, 33, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(33, 33, 33, 0.75);
 }
-.Bg{
+
+.Bg {
     background-color: #1e1e28;
     opacity: 0.96;
 }
 
 
-.MainBar{
+.MainBar {
     padding: 0px 20px;
     height: 95vh;
     overflow-y: scroll;
     overflow-x: hidden;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
     border: 0px solid #cecece;
     box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
 }
 
-.menu-section{
+.menu-section {
     width: 100%;
     display: none;
 }
 
-.menu-section .menu-box{
+.menu-section .menu-box {
     box-sizing: border-box;
     background: #2c2c38;
     padding-top: 5px;
     padding-left: 20px;
     height: 7vh;
 }
-.menu-section .menu-box .btn{
+
+.menu-section .menu-box .btn {
     background: transparent;
     border: 0px solid transparent;
     font-size: 20px;
     color: rgb(140, 140, 142);
 }
-.menu-section .menu-box .btn:focus{
+
+.menu-section .menu-box .btn:focus {
     box-shadow: none;
     outline: none;
 }
@@ -69,15 +80,16 @@ body{
     display: none;
 }
 
-.MainBar h4{
+.MainBar h4 {
     font-size: 18px;
     font-weight: 600;
     color: #ffffff;
-    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     margin-bottom: 30px;
 }
 
-.MainBar .hero-section{
+.MainBar .hero-section {
     margin-top: 3%;
     padding: 0px 50px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
@@ -88,9 +100,11 @@ body{
     /*background: #595960;*/
 
 }
-.MainBar .hero-section .hero-text{
+
+.MainBar .hero-section .hero-text {
     padding: 50px 0 30px;
 }
+
 .MainBar .hero-section .hero-text h3 {
     font-size: 33px;
     font-weight: 800;
@@ -98,14 +112,16 @@ body{
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
-.MainBar .hero-section .hero-text .code-section{
+
+.MainBar .hero-section .hero-text .code-section {
     margin-bottom: 20px;
 }
-.MainBar .hero-section .hero-text .hire-button .btn{
-    background: #ffc107;
-    border: 1px solid #ffc107;
+
+.MainBar .hero-section .hero-text .hire-button .btn {
+    background: #ff6a06;
+    border: 1px solid #ff6a06;
     border-radius: 1px;
-    color: #242430;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
@@ -114,86 +130,119 @@ body{
     margin-bottom: 20px;
 }
 
-.MainBar .hero-section .hero-text .hire-button .btn:focus{
+.MainBar .hero-section .hero-text .hire-button .btn:focus {
     outline: none;
     box-shadow: none;
 }
 
 
-.MainBar .work-experience{
+.MainBar .work-experience {
     margin: 3% 0;
 }
 
-.MainBar .work-experience{
+.MainBar .work-experience {
     display: flex;
     flex: auto;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.MainBar .work-experience .experience{
+.MainBar .work-experience .experience {
     display: flex;
     flex: auto;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.MainBar .work-experience .experience h5{
+
+.MainBar .work-experience .experience h5 {
     font-size: 20px;
     font-weight: 600;
-    color: #ffc107;
+    /* color: #ffc107; */
+    color: #ff6a06;
 }
 
-.MainBar .work-experience .experience p{
+.MainBar .work-experience .experience p {
     font-size: 13px;
     font-weight: 400;
     color: #fff;
 }
-.MainBar .service-section{
+
+.MainBar .service-section {
     margin-top: 5%;
 }
 
-.MainBar .service-section .service-box{
-    padding: 30px 30px;
+.service-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-section .col-lg-4 {
+    display: flex;
+    padding: 8px;
+}
+
+.MainBar .service-section .service-box {
+    padding: 20px 20px;
     box-sizing: border-box;
     background: #2c2c38;
-    color: rgb(140, 140, 142);
+    color: rgb(157, 157, 157);
     text-align: left;
-    height: 250px;
-    margin-bottom: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
-.MainBar .service-section .service-box h6{
+
+.MainBar .service-section .service-box h6 {
     font-size: 15px;
     font-weight: 500;
     color: #ffffff;
     letter-spacing: 0.5px;
     margin-bottom: 20px;
 }
-.MainBar .service-section .service-box p{
+
+.MainBar .service-section .service-box p {
     font-size: 12px;
     line-height: 18px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
-.MainBar .work-section{
+.MainBar .work-section {
     margin-top: 5%;
 }
 
-.MainBar .work-section .work-box{
-    padding: 30px 30px 20px;
+.work-section .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-section .col-lg-6{
+    display: flex;
+    padding: 10px;
+}
+
+.MainBar .work-section .work-box {
+    padding: 30px 20px 10px;
     box-sizing: border-box;
     background: #2c2c38;
-    margin-bottom: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
-.MainBar .work-section .work-box .work-header{
+
+.MainBar .work-section .work-box .work-header {
     display: flex;
     flex: auto;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.MainBar .work-section .work-box .work-header .work-title h5{
+.MainBar .work-section .work-box .work-header .work-title h5 {
     font-size: 14px;
     font-weight: 500;
     color: #ffffff;
@@ -201,35 +250,36 @@ body{
 }
 
 .MainBar .work-section .work-box .work-header .work-title p {
-    font-size: 12px;
+    font-size: 13px;
     font-style: italic;
     text-transform: capitalize;
-    font-weight: 300;
-    color: rgb(140, 140, 142);
+    font-weight: 500;
+    color: rgb(157, 157, 157);
 }
 
-.MainBar .work-section .work-box .work-header .work-time h6{
+.MainBar .work-section .work-box .work-header .work-time h6 {
     font-size: 10px;
     background: #1f1f29;
     border-radius: 20px;
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(140, 140, 142);
     padding: 8px 15px;
 
 }
-.MainBar .work-section .work-box .work-description p{
+
+.MainBar .work-section .work-box .work-description p {
     font-weight: 300;
     font-size: 12px;
     text-align: left;
-    color: rgb(140, 140, 142);
+    color: rgb(157, 157, 157);
 }
 
 
-.MainBar .contact-section{
+.MainBar .contact-section {
     margin-top: 5%;
 }
 
-.MainBar .contact-section .contact-box{
+.MainBar .contact-section .contact-box {
     padding: 30px 20px 20px;
     box-sizing: border-box;
     background: #2c2c38;
@@ -240,7 +290,8 @@ body{
     margin-bottom: 5%;
 
 }
-.MainBar .contact-section .contact-box p{
+
+.MainBar .contact-section .contact-box p {
     font-size: 12px;
     font-weight: 500;
     color: #ffffff;
@@ -248,27 +299,32 @@ body{
     letter-spacing: 0.5px;
 }
 
-.MainBar .contact-section .contact-box .address-two p{
-    font-weight: 300;
+.MainBar .contact-section .contact-box .address-two p {
+    font-weight: 400;
     text-transform: lowercase;
     text-align: right;
-    color: rgb(140, 140, 142);
+    color: rgb(157, 157, 157);
+}
+
+.MainBar .contact-section .contact-box .address-two.main-address p {
+    text-transform: capitalize;
 }
 
 
-.MainBar .form-section{
+.MainBar .form-section {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.MainBar .form-section .form-box{
+.MainBar .form-section .form-box {
     padding: 30px;
     box-sizing: border-box;
     background: #2c2c38;
     margin-bottom: 5%;
 
 }
-.MainBar .form-section .form-box .form-group{
+
+.MainBar .form-section .form-box .form-group {
     display: flex;
     flex: auto;
     flex-direction: row;
@@ -276,7 +332,7 @@ body{
     margin-bottom: 20px;
 }
 
-.MainBar .form-section .form-box .form-group label{
+.MainBar .form-section .form-box .form-group label {
     background: #20202a;
     padding: 10px;
     font-size: 12px;
@@ -286,10 +342,11 @@ body{
     text-align: center;
 }
 
-.MainBar .form-section .form-box .form-group.textarea label{
+.MainBar .form-section .form-box .form-group.textarea label {
     height: 150px;
 }
-.MainBar .form-section .form-box .form-group input{
+
+.MainBar .form-section .form-box .form-group input {
     background: #24242f;
     border-radius: 1px;
     border: 1px solid transparent;
@@ -298,7 +355,8 @@ body{
     padding: 5px 10px;
     color: rgb(140, 140, 142);
 }
-.MainBar .form-section .form-box .form-group textarea{
+
+.MainBar .form-section .form-box .form-group textarea {
     background: #24242f;
     border-radius: 1px;
     border: 1px solid transparent;
@@ -308,24 +366,26 @@ body{
     color: rgb(140, 140, 142);
 }
 
-.MainBar .form-section .form-box .form-group input:focus{
-    outline: none;
-    box-shadow: none;
-}
-.MainBar .form-section .form-box .form-group textarea:focus{
+.MainBar .form-section .form-box .form-group input:focus {
     outline: none;
     box-shadow: none;
 }
 
-.MainBar .form-section .form-box .btn:focus{
+.MainBar .form-section .form-box .form-group textarea:focus {
     outline: none;
     box-shadow: none;
 }
-.MainBar .form-section .form-box .btn{
-    background: #ffc107;
-    border: 1px solid #ffc107;
+
+.MainBar .form-section .form-box .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.MainBar .form-section .form-box .btn {
+    background: #ff6a06;
+    border: 1px solid #ff6a06;
     border-radius: 1px;
-    color: #242430;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
@@ -334,15 +394,17 @@ body{
 }
 
 
-.MainBar .footer-section{
+.MainBar .footer-section {
     margin-top: 8%;
 }
-.MainBar .footer-section .footer-box{
+
+.MainBar .footer-section .footer-box {
     box-sizing: border-box;
     background: #2c2c38;
     height: 8vh;
 }
-.MainBar .footer-section .footer-box p{
+
+.MainBar .footer-section .footer-box p {
 
     padding-top: 10px;
     text-align: center;
@@ -353,42 +415,49 @@ body{
 }
 
 
-.Sidebar{
+.Sidebar {
     padding: 0px;
     height: 100%;
     border: 0px solid #cecece;
 }
-.Sidebar hr{
+
+.Sidebar hr {
     border-top: 1px solid #424242;
 }
 
-.Sidebar .header-section{
+.Sidebar .header-section {
     height: 35vh;
     background: #242430;
     padding: 25px 0;
     box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
 }
 
-.Sidebar .header-section .image-box{
+.Sidebar .header-section .image-box {
     text-align: center;
 }
 
-.Sidebar .header-section .image-box .img-fluid{
+.Sidebar .header-section .image-box .img-fluid {
     width: 80px;
     height: 80px;
     border-radius: 40px;
-    border: 3px solid #ffc107;
+    border: 3px solid #ff6a06;
     object-fit: cover;
 }
 
-.Sidebar .Profile-info{
+.Sidebar .Profile-info {
     margin-top: 10px;
     text-align: center;
 }
-.Sidebar .Profile-info h5{
+
+.Sidebar .Profile-info h5 {
     font-size: 16px;
 }
-.Sidebar .Profile-info p{
+
+.Sidebar .Profile-info h3 {
+    font-size: 14px;
+}
+
+.Sidebar .Profile-info p {
     font-size: 12px;
     color: #b6b6b6;
     font-weight: 300;
@@ -396,69 +465,74 @@ body{
     letter-spacing: 1px;
 }
 
-.Sidebar .Profile-details{
+.Sidebar .Profile-details {
     height: 60vh;
     padding: 20px;
     background: #20202a;
     overflow-y: scroll;
     overflow-x: hidden;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 .Sidebar .Profile-details::-webkit-scrollbar {
     display: none;
 }
 
-.Sidebar .Profile-details .profile-address{
+.Sidebar .Profile-details .profile-address {
     display: flex;
     flex: auto;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.Sidebar .Profile-details .profile-address h6{
+.Sidebar .Profile-details .profile-address h6 {
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
-.Sidebar .Profile-details .profile-address .address-two h6{
+.Sidebar .Profile-details .profile-address .address-two h6 {
     font-weight: 400;
     color: #b6b6b6;
 }
 
-.Sidebar .Profile-details .language{
+.Sidebar .Profile-details .language {
     display: flex;
     flex: auto;
     flex-direction: row;
     justify-content: space-between;
 }
-.Sidebar .Profile-details .language .language-status p{
+
+.Sidebar .Profile-details .language .language-status p {
     color: #ffffff;
     font-size: 13px;
     font-weight: 400;
     text-align: center;
 }
 
-.Sidebar .Profile-details .skills ul{
+.Sidebar .Profile-details .skills ul {
     margin-top: 30px;
     list-style: none;
     padding-left: 0;
     margin-bottom: 30px;
 }
 
-.Sidebar .Profile-details .skills ul li{
+.Sidebar .Profile-details .skills ul li {
     margin-bottom: 20px;
 }
-.Sidebar .Profile-details .skills .skills-text{
+
+.Sidebar .Profile-details .skills .skills-text {
     display: flex;
     flex: auto;
     flex-direction: row;
     justify-content: space-between;
 
 }
-.Sidebar .Profile-details .skills .skills-text p{
+
+.Sidebar .Profile-details .skills .skills-text p {
     font-size: 12px;
     color: #ffffff;
     margin-bottom: 5px;
@@ -471,48 +545,55 @@ body{
 }
 
 .skill {
-    background-color: #ffc107;
+    background-color: #ff6a06;
     color: white;
     padding: 2px;
     text-align: right;
     border-radius: 15px;
 }
 
-.html {
-    width: 90%;
-}
-.css {
-    width: 90%;
-}
-.react {
-    width: 70%;
-}
-.js {
-    width: 50%;
-}
-.php{
-    width: 80%;
-}
-
-.other{
+.percent-100 {
     width: 100%;
 }
 
-.Sidebar .Profile-details .mini-skills ul{
+.percent-90 {
+    width: 90%;
+}
+
+.percent-80 {
+    width: 80%;
+}
+
+.percent-70 {
+    width: 70%;
+}
+
+.percent-60 {
+    width: 60%;
+}
+
+.percent-50 {
+    width: 50%;
+}
+
+
+.Sidebar .Profile-details .mini-skills ul {
     list-style: none;
     padding-left: 0;
 }
-.Sidebar .Profile-details .mini-skills .fas{
-    color: #ffc107;
+
+.Sidebar .Profile-details .mini-skills .fas {
+    color: #ff6a06;
 }
-.Sidebar .Profile-details .mini-skills ul li{
+
+.Sidebar .Profile-details .mini-skills ul li {
     font-size: 12px;
     color: #b6b6b6;
     letter-spacing: 1px;
     font-weight: 300;
 }
 
-.Sidebar .Profile-details .download-cv a{
+.Sidebar .Profile-details .download-cv a {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -522,14 +603,16 @@ body{
 }
 
 
-.Sidebar .side-footer{
+.Sidebar .side-footer {
     margin-top: 20px;
     background: #242430;
 }
-.Sidebar .side-footer .socials{
-   margin: auto;
+
+.Sidebar .side-footer .socials {
+    margin: auto;
 }
-.Sidebar .side-footer .socials ul{
+
+.Sidebar .side-footer .socials ul {
     display: flex;
     flex: auto;
     flex-direction: row;
@@ -538,7 +621,8 @@ body{
     padding: 10px;
     margin: 0px 10px;
 }
-.Sidebar .side-footer .socials ul a{
+
+.Sidebar .side-footer .socials ul a {
     color: #b6b6b6;
     font-size: 15px;
 }
@@ -546,150 +630,152 @@ body{
 
 @media (max-width: 812px) {
 
-    body{
+    body {
         padding: 0px;
     }
 
-    .Sidebar{
-       display: none;
+    .Sidebar {
+        display: none;
         width: 50%;
     }
-    .Sidebar .header-section{
+
+    .Sidebar .header-section {
         height: 20vh;
-        background: #242430;
         padding: 25px 0;
     }
 
 
-    .Sidebar .Profile-details{
-        height:74vh;
+    .Sidebar .Profile-details {
+        height: 74vh;
         padding: 20px;
-        background: #20202a;
         overflow-y: scroll;
         overflow-x: hidden;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
     }
 
-    .Sidebar .side-footer .socials{
+    .Sidebar .side-footer .socials {
         padding-top: 10px;
         margin: auto;
     }
 
 
-    .menu-section{
+    .menu-section {
         width: 100%;
         display: block;
     }
 
-    .menu-section .menu-box{
+    .menu-section .menu-box {
         box-sizing: border-box;
         background: #20202a;
         padding-top: 5px;
         padding-left: 20px;
         height: 7vh;
     }
-    .menu-section .menu-box .btn{
+
+    .menu-section .menu-box .btn {
         background: transparent;
         border: 0px solid transparent;
         font-size: 20px;
-        color: rgb(140, 140, 142);
     }
 
 
-    .MainBar{
+    .MainBar {
         padding: 0px 20px;
         height: 95vh;
     }
 
-    .MainBar h4{
+    .MainBar h4 {
         font-size: 18px;
         font-weight: 600;
-        color: #ffffff;
         letter-spacing: 0.5px;
         margin-bottom: 30px;
     }
 
-    .MainBar .hero-section{
+    .MainBar .hero-section {
         text-align: center;
         margin-top: 3%;
         padding: 0px 50px;
 
-        /*background: #595960;*/
-
     }
-    .MainBar .hero-section .hero-text{
+
+    .MainBar .hero-section .hero-text {
         padding: 50px 0 30px;
     }
+
     .MainBar .hero-section .hero-text h3 {
         font-size: 40px;
         margin-bottom: 20px;
     }
-    .MainBar .hero-section .hero-text .code-section{
+
+    .MainBar .hero-section .hero-text .code-section {
         margin-bottom: 20px;
         font-size: 17px;
     }
-    .MainBar .hero-section .hero-text .hire-button .btn{
+
+    .MainBar .hero-section .hero-text .hire-button .btn {
         font-size: 13px;
         margin-bottom: 20px;
     }
-    .MainBar .hero-section .hero-image{
+
+    .MainBar .hero-section .hero-image {
         display: none;
     }
 
-    .MainBar .work-experience{
+    .MainBar .work-experience {
         margin: 3% 0;
     }
 
-    .MainBar .work-experience{
+    .MainBar .work-experience {
         display: flex;
         flex: auto;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .MainBar .work-experience .experience h5{
+    .MainBar .work-experience .experience h5 {
         font-size: 20px;
         font-weight: 600;
-        color: #ffc107;
     }
 
-    .MainBar .work-experience .experience p{
+    .MainBar .work-experience .experience p {
         font-size: 13px;
         font-weight: 400;
-        color: #fff;
     }
-    .MainBar .service-section{
+
+    .MainBar .service-section {
         margin-top: 5%;
     }
 
-    .MainBar .service-section .service-box{
+    .MainBar .service-section .service-box {
         padding: 20px 10px;
-        height: 180px;
-        margin-bottom: 5%;
     }
-    .MainBar .service-section .service-box h6{
+
+    .MainBar .service-section .service-box h6 {
         font-size: 15px;
     }
-    .MainBar .service-section .service-box p{
+
+    .MainBar .service-section .service-box p {
         font-size: 12px;
         line-height: 18px;
     }
 
-    .MainBar .work-section{
+    .MainBar .work-section {
         margin-top: 5%;
     }
 
-    .MainBar .work-section .work-box.education{
+    .MainBar .work-section .work-box.education {
         height: 180px;
     }
 
-    .MainBar .work-section .work-box{
+    .MainBar .work-section .work-box {
         padding: 30px 20px 20px;
-        height: 270px;
+
     }
 
-    .MainBar .work-section .work-box .work-header .work-title h5{
+    .MainBar .work-section .work-box .work-header .work-title h5 {
         font-size: 14px;
     }
 
@@ -697,24 +783,24 @@ body{
         font-size: 12px;
     }
 
-    .MainBar .work-section .work-box .work-header .work-time h6{
+    .MainBar .work-section .work-box .work-header .work-time h6 {
         font-size: 10px;
         padding: 8px 15px;
 
     }
-    .MainBar .work-section .work-box .work-description p{
+
+    .MainBar .work-section .work-box .work-description p {
         font-size: 12px;
     }
 
 
-    .MainBar .contact-section{
+    .MainBar .contact-section {
         margin-top: 5%;
     }
 
-    .MainBar .contact-section .contact-box{
+    .MainBar .contact-section .contact-box {
         padding: 30px 20px 20px;
         box-sizing: border-box;
-        background: #2c2c38;
         display: flex;
         flex: auto;
         flex-direction: row;
@@ -722,36 +808,33 @@ body{
         margin-bottom: 5%;
 
     }
-    .MainBar .contact-section .contact-box p{
+
+    .MainBar .contact-section .contact-box p {
         font-size: 12px;
         font-weight: 500;
-        color: #ffffff;
         text-transform: capitalize;
         letter-spacing: 0.5px;
     }
 
-    .MainBar .contact-section .contact-box .address-two p{
+    .MainBar .contact-section .contact-box .address-two p {
         font-weight: 300;
         text-transform: lowercase;
         text-align: right;
-        color: rgb(140, 140, 142);
     }
 
-
-
-    .MainBar .form-section{
+    .MainBar .form-section {
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
-    .MainBar .form-section .form-box{
+    .MainBar .form-section .form-box {
         padding: 30px;
         box-sizing: border-box;
-        background: #2c2c38;
         margin-bottom: 5%;
 
     }
-    .MainBar .form-section .form-box .form-group{
+
+    .MainBar .form-section .form-box .form-group {
         display: flex;
         flex: auto;
         flex-direction: row;
@@ -759,56 +842,37 @@ body{
         margin-bottom: 20px;
     }
 
-    .MainBar .form-section .form-box .form-group label{
-        background: #20202a;
+    .MainBar .form-section .form-box .form-group label {
         padding: 10px;
         font-size: 12px;
-        color: rgb(140, 140, 142);
         width: 6%;
         height: 50px;
         text-align: center;
     }
 
-    .MainBar .form-section .form-box .form-group.textarea label{
+    .MainBar .form-section .form-box .form-group.textarea label {
         height: 150px;
     }
-    .MainBar .form-section .form-box .form-group input{
-        background: #24242f;
+
+    .MainBar .form-section .form-box .form-group input {
         border-radius: 1px;
         border: 1px solid transparent;
         font-size: 12px;
         height: 50px;
         padding: 5px 10px;
-        color: rgb(140, 140, 142);
     }
-    .MainBar .form-section .form-box .form-group textarea{
-        background: #24242f;
+
+    .MainBar .form-section .form-box .form-group textarea {
         border-radius: 1px;
         border: 1px solid transparent;
         font-size: 12px;
         height: 150px;
         padding: 20px 10px 10px;
-        color: rgb(140, 140, 142);
     }
 
-    .MainBar .form-section .form-box .form-group input:focus{
-        outline: none;
-        box-shadow: none;
-    }
-    .MainBar .form-section .form-box .form-group textarea:focus{
-        outline: none;
-        box-shadow: none;
-    }
 
-    .MainBar .form-section .form-box .btn:focus{
-        outline: none;
-        box-shadow: none;
-    }
-    .MainBar .form-section .form-box .btn{
-        background: #ffc107;
-        border: 1px solid #ffc107;
+    .MainBar .form-section .form-box .btn {
         border-radius: 1px;
-        color: #242430;
         text-transform: uppercase;
         font-size: 12px;
         font-weight: 600;
@@ -817,22 +881,22 @@ body{
     }
 
 
-    .MainBar .footer-section{
+    .MainBar .footer-section {
         margin-top: 8%;
 
     }
-    .MainBar .footer-section .footer-box{
+
+    .MainBar .footer-section .footer-box {
         box-sizing: border-box;
-        background: #2c2c38;
         height: 8vh;
     }
-    .MainBar .footer-section .footer-box p{
+
+    .MainBar .footer-section .footer-box p {
 
         padding-top: 10px;
         text-align: center;
         font-size: 12px;
         font-weight: 300;
-        color: rgb(140, 140, 142);
         letter-spacing: 0.5px;
     }
 
@@ -841,32 +905,31 @@ body{
 
 @media (max-width: 767px) {
 
-    .Sidebar{
+    .Sidebar {
         display: none;
         width: 80%;
     }
-    .MainBar .work-experience{
+
+    .MainBar .work-experience {
         margin: 3% 0;
     }
 
 
-    .MainBar .work-experience{
+    .MainBar .work-experience {
         display: flex;
         flex: auto;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .MainBar .work-experience .experience h5{
+    .MainBar .work-experience .experience h5 {
         font-size: 16px;
         font-weight: 600;
-        color: #ffc107;
     }
 
-    .MainBar .work-experience .experience p{
+    .MainBar .work-experience .experience p {
         font-size: 13px;
         font-weight: 400;
-        color: #fff;
     }
 
 }
@@ -875,51 +938,52 @@ body{
 
 @media (max-width: 540px) {
 
-    .Sidebar{
+    .Sidebar {
         display: none;
         width: 80%;
         height: 92vh;
     }
-    .Sidebar .header-section{
+
+    .Sidebar .header-section {
         height: 25vh;
-        background: #242430;
         padding: 25px 0;
     }
 
-    .Sidebar .Profile-details{
+    .Sidebar .Profile-details {
         height: 65vh;
         padding: 20px;
-        background: #20202a;
         overflow-y: scroll;
         overflow-x: hidden;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
     }
 
-    .Sidebar .side-footer{
+    .Sidebar .side-footer {
         width: 100%;
         height: 7vh;
     }
-    .Sidebar .side-footer .socials{
+
+    .Sidebar .side-footer .socials {
         padding-top: 10px;
         margin: auto;
     }
 
 
-    .MainBar{
+    .MainBar {
         padding: 0px 20px;
         height: 90vh;
     }
 
-    .MainBar h4{
+    .MainBar h4 {
         font-size: 16px;
         font-weight: 600;
-        color: #ffffff;
         letter-spacing: 0.5px;
         margin-bottom: 30px;
     }
 
-    .MainBar .hero-section{
+    .MainBar .hero-section {
         text-align: center;
         margin-top: 3%;
         padding: 0px 20px;
@@ -927,89 +991,90 @@ body{
         /*background: #595960;*/
 
     }
-    .MainBar .hero-section .hero-text{
+
+    .MainBar .hero-section .hero-text {
         padding: 50px 0 30px;
     }
+
     .MainBar .hero-section .hero-text h3 {
         font-size: 30px;
         margin-bottom: 20px;
     }
-    .MainBar .hero-section .hero-text .code-section{
+
+    .MainBar .hero-section .hero-text .code-section {
         margin-bottom: 20px;
         font-size: 16px;
     }
 
-    .MainBar .hero-section .hero-text .hire-button .btn{
+    .MainBar .hero-section .hero-text .hire-button .btn {
         font-size: 11px;
         font-weight: 600;
         padding: 10px 30px;
         margin-bottom: 20px;
     }
-    .MainBar .hero-section .hero-image{
+
+    .MainBar .hero-section .hero-image {
         display: none;
     }
 
-    .MainBar .work-experience{
+    .MainBar .work-experience {
         margin: 3% 0;
     }
 
-    .MainBar .work-experience{
+    .MainBar .work-experience {
         display: flex;
         flex: auto;
         flex-direction: column;
         padding: 0 20px;
     }
 
-    .MainBar .work-experience .experience{
+    .MainBar .work-experience .experience {
         display: flex;
         flex: auto;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .MainBar .work-experience .experience h5{
+    .MainBar .work-experience .experience h5 {
         font-size: 15px;
         font-weight: 600;
-        color: #ffc107;
-
     }
 
-    .MainBar .work-experience .experience p{
+    .MainBar .work-experience .experience p {
         font-size: 12px;
         font-weight: 400;
-        color: #fff;
     }
-    .MainBar .service-section{
+
+    .MainBar .service-section {
         margin-top: 5%;
     }
 
-    .MainBar .service-section .service-box{
+    .MainBar .service-section .service-box {
         padding: 20px 10px;
-        height: 180px;
-        margin-bottom: 5%;
     }
-    .MainBar .service-section .service-box h6{
+
+    .MainBar .service-section .service-box h6 {
         font-size: 13px;
     }
-    .MainBar .service-section .service-box p{
+
+    .MainBar .service-section .service-box p {
         font-size: 11px;
         line-height: 18px;
     }
 
-    .MainBar .work-section{
+    .MainBar .work-section {
         margin-top: 5%;
     }
 
-    .MainBar .work-section .work-box.education{
+    .MainBar .work-section .work-box.education {
         height: 180px;
     }
 
-    .MainBar .work-section .work-box{
+    .MainBar .work-section .work-box {
         padding: 30px 10px 20px;
-        height: 340px;
     }
 
-    .MainBar .work-section .work-box .work-header .work-title h5{
+    .MainBar .work-section .work-box .work-header .work-title h5 {
         font-size: 13px;
     }
 
@@ -1017,33 +1082,34 @@ body{
         font-size: 11px;
     }
 
-    .MainBar .work-section .work-box .work-header .work-time h6{
+    .MainBar .work-section .work-box .work-header .work-time h6 {
         font-size: 9px;
         padding: 6px 10px;
 
     }
-    .MainBar .work-section .work-box .work-description p{
+
+    .MainBar .work-section .work-box .work-description p {
         font-size: 11px;
     }
 
 
-    .MainBar .contact-section{
+    .MainBar .contact-section {
         margin-top: 5%;
     }
 
-    .MainBar .form-section{
+    .MainBar .form-section {
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
-    .MainBar .form-section .form-box{
+    .MainBar .form-section .form-box {
         padding: 30px 10px;
         box-sizing: border-box;
-        background: #2c2c38;
         margin-bottom: 5%;
 
     }
-    .MainBar .form-section .form-box .form-group{
+
+    .MainBar .form-section .form-box .form-group {
         display: flex;
         flex: auto;
         flex-direction: row;
@@ -1051,63 +1117,60 @@ body{
         margin-bottom: 20px;
     }
 
-    .MainBar .form-section .form-box .form-group label{
-        background: #20202a;
+    .MainBar .form-section .form-box .form-group label {
         padding: 10px;
         font-size: 12px;
-        color: rgb(140, 140, 142);
         width: 12%;
         height: 45px;
         text-align: center;
     }
 
-    .MainBar .form-section .form-box .form-group.textarea label{
+    .MainBar .form-section .form-box .form-group.textarea label {
         height: 120px;
     }
-    .MainBar .form-section .form-box .form-group input{
-        background: #24242f;
+
+    .MainBar .form-section .form-box .form-group input {
         border-radius: 1px;
         border: 1px solid transparent;
         font-size: 12px;
         height: 45px;
         padding: 5px 10px;
-        color: rgb(140, 140, 142);
     }
-    .MainBar .form-section .form-box .form-group textarea{
-        background: #24242f;
+
+    .MainBar .form-section .form-box .form-group textarea {
         border-radius: 1px;
         border: 1px solid transparent;
         font-size: 12px;
         height: 120px;
         padding: 20px 10px 10px;
-        color: rgb(140, 140, 142);
     }
 
-    .MainBar .form-section .form-box .btn:focus{
+    .MainBar .form-section .form-box .btn:focus {
         outline: none;
         box-shadow: none;
     }
-    .MainBar .form-section .form-box .btn{
+
+    .MainBar .form-section .form-box .btn {
         font-size: 11px;
         padding: 10px 30px;
     }
 
 
-    .MainBar .footer-section{
+    .MainBar .footer-section {
         margin-top: 15%;
 
     }
-    .MainBar .footer-section .footer-box{
+
+    .MainBar .footer-section .footer-box {
         box-sizing: border-box;
-        background: #2c2c38;
         height: 10vh;
     }
-    .MainBar .footer-section .footer-box p{
+
+    .MainBar .footer-section .footer-box p {
         padding-top: 10px;
         text-align: center;
         font-size: 12px;
         font-weight: 300;
-        color: rgb(140, 140, 142);
         letter-spacing: 0.5px;
         margin-bottom: 2px;
     }
